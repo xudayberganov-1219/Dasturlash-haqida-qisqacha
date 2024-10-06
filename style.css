@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding-left: 5px;
+    margin-top: 2px;
+    
+}
+:root{
+    --Orqa-fon: #151515;
+    --mant-turi: Times;
+    --mans-size: 18px;
+}
+.page-header{
+    background-color: #0918f1;
+    height: 55px;
+    width: 100%;
+   
+}
+.page-section{
+    display: flex;
+    gap: 0px;
+    
+}
+.png{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+.section-logo{
+    display: flex;
+}
+.section-text{
+    color: white;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.section-a{
+    display: flex;
+    gap: 50px;
+    padding-top: 15px;
+    padding-left: 800px;
+    
+}
+.section-a-1{
+    color: aliceblue;
+    font-size: var(--mans-size);
+   
+}
+.section-a-2{
+    color: aliceblue;
+    font-size: var(--mans-size);
+}
+.section-a-3{
+    color: aliceblue;
+    font-size: var(--mans-size);
+}
+h2{
+    margin-top: 7.77777px;
+    text-align: center;
+    font-size: 22px;
+}
+p{
+    font-size: 18px;
+}
+
+@media screen and (max-width:415px) {
+    .page-header{
+        background-color: green;
+        margin-right: 2px;
+    }
+    .section-text{
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    .section-a{
+        gap: 2px;
+        margin: 5px;
+        display: flex;
+        padding-left: 50px;
+    }
+    .section-a-1{
+        font-size: smaller;
+        color: white;
+        text-align: center;
+        
+    }
+    .section-a-2{
+        font-size: smaller;
+        color: white;
+        padding-top: 15px;
+    }
+    .section-a-3    {
+        font-size: smaller;
+        color: white;
+        padding-top: 15px;
+    }
+    }
+
